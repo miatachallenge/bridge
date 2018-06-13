@@ -5,6 +5,8 @@ program too) designed to ingest readouts from a Motorola FX9500 reader, save
 them to a local SQLite3 database and upload them to an endpoint specified in a
 flag using a very primitive custom protocol.
 
+![Screenshot of the UI](https://i.imgur.com/9vau3F3.png)
+
 The modem's IP is hardcoded to `192.168.1.151` due to our legacy equipment's
 constraints.
 
