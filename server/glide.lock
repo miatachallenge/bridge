@@ -1,0 +1,25 @@
+hash: 8c717b609078e5a2a009bfc239197c18dcc606e1822ff4166e13a5f550aca5ca
+updated: 2018-06-11T23:21:40.87672053+02:00
+imports:
+- name: github.com/dustin/go-broadcast
+  version: f664265f5a662fb4d1df7f3533b1e8d0e0277120
+- name: github.com/gorilla/websocket
+  version: ea4d1f681babbce9545c9c5f3d5194a789c89f5b
+- name: github.com/jmoiron/sqlx
+  version: d9bd385d68c068f1fabb5057e3dedcbcbb039d0f
+- name: github.com/mattn/go-sqlite3
+  version: 323a32be5a2421b8c7087225079c6c900ec397cd
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: github.com/tatsushid/go-fastping
+  version: d7bb493dee3e090e2ffb6914adddf17c1e7c026c
+- name: golang.org/x/net
+  version: 1c05540f6879653db88113bc4a2b70aec4bd491f
+  subpackages:
+  - bpf
+  - icmp
+  - internal/iana
+  - internal/socket
+  - ipv4
+  - ipv6
+testImports: []

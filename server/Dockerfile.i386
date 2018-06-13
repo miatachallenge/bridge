@@ -1,0 +1,9 @@
+FROM i386/golang:1.10.3-stretch
+
+COPY . /go/src/github.com/miatachallenge/bridge/server
+RUN go install -v github.com/miatachallenge/bridge/server
+
+FROM i386/debian:stretch
+COPY --from=0 /go/bin/server /usr/bin/server
+COPY --from=0 /go/src/github.com/miatachallenge/bridge/server/frontend /usr/bin/frontend
+WORKDIR /usr/bin

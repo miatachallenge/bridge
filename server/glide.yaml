@@ -1,0 +1,9 @@
+package: github.com/miatachallenge/bridge/server
+import:
+- package: github.com/tatsushid/go-fastping
+- package: github.com/dustin/go-broadcast
+- package: github.com/pkg/errors
+- package: github.com/gorilla/websocket
+- package: github.com/mattn/go-sqlite3
+  version: ^1.7.0
+- package: github.com/jmoiron/sqlx
